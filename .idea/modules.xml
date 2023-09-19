@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Chapter01_BasicProgramming/Chapter01_BasicProgramming.iml" filepath="$PROJECT_DIR$/Chapter01_BasicProgramming/Chapter01_BasicProgramming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter02_OOP/Chapter02_OOP.iml" filepath="$PROJECT_DIR$/Chapter02_OOP/Chapter02_OOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JAVA_FONDAMENTALS.iml" filepath="$PROJECT_DIR$/JAVA_FONDAMENTALS.iml" />
+    </modules>
+  </component>
+</project>
