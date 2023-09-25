@@ -11,17 +11,13 @@ public class ForExample6 {
 
         for (int number = 0; number <= 10; number++) {
             number = input.nextInt();
-             if (number >= -10 && number <= 10) {
+           if (number >= -10 && number <= 10) {
                 if (number < 0) {
-                    System.out.println(" - " + number);
+                    System.out.println( number);
                 } else if (number > 0) {
                     System.out.println(" + " + number);
-                } else {
-                    System.out.println("The number 0 has no sign");
                 }
-            } else {
-                System.out.println("Invalid input! Please enter a number between -10 and 10.");
-            }
+           }else System.out.println("Invalid input! Please enter a number between -10 and 10.");
         }
     }
 }
