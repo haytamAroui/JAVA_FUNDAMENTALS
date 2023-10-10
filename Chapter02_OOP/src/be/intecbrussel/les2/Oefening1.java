@@ -8,9 +8,9 @@ public class Oefening1 {
         StringBuilder revWord = new StringBuilder(word).reverse();
         String txt = revWord.toString();
         if (word.equals(txt)) {
-            System.out.println(word + " is a palindroom.");
+            System.out.println(word + " is a palindrome.");
         } else {
-            System.out.println(word + " is not a palindroom.");
+            System.out.println(word + " is not a palindrome.");
         }
     }
 }

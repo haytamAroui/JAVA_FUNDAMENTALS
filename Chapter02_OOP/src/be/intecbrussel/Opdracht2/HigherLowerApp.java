@@ -11,7 +11,7 @@ public class HigherLowerApp {
         int RandomNumbers = random.nextInt(99);
         boolean doesNotMatch = false;
         System.out.println("Guess the number");
-        while (doesNotMatch == false) {
+        while (!doesNotMatch) {
             int guessedNumber = input.nextInt();
             if (guessedNumber < RandomNumbers) {
                 System.out.println("Higher");

@@ -1,4 +1,4 @@
-package be.intecbrussel.les5;
+/*package be.intecbrussel.les5;
 class Rectangle{
     int length;
     int width;
@@ -20,4 +20,4 @@ class TestRectangle1{
         r1.calculateArea();
         r2.calculateArea();
     }
-}
+}*/
