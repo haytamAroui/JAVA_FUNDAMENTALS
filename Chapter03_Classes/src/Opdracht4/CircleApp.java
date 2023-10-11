@@ -1,37 +1,51 @@
 package be.intecbrussel.les1.Opdracht4;
+public class CircleApp {
+    public static void main(String[] args) {
 
-        public class CircleApp {
-            public static void main(String[] args) {
-                Circle circle1 = new Circle(5, 10, 15);
-                System.out.println("Circle1: ");
-                System.out.println("x: " + circle1.getX());
-                System.out.println("y: " + circle1.getY());
-                System.out.println("radius: " + circle1.getRadius());
-                System.out.println("area: " + circle1.getArea());
-                System.out.println("perimeter: " + circle1.getPerimeter());
+        Circle cirkel = new Circle(10);
+        System.out.println("The x coordinate of the circle is: " + cirkel.getX());
 
-                Circle circle2 = new Circle();
-                circle2.setRadius(10);
-                circle2.setX(20);
-                circle2.setY(25);
-                System.out.println("\nCircle2: ");
-                System.out.println("x: " + circle2.getX());
-                System.out.println("y: " + circle2.getY());
-                System.out.println("radius: " + circle2.getRadius());
-                System.out.println("area: " + circle2.getArea());
-                System.out.println("perimeter: " + circle2.getPerimeter());
+        cirkel.setX(5);
 
-                Circle circle3 = new Circle(circle1);
-                System.out.println("\nCircle3: ");
-                System.out.println("x: " + circle3.getX());
-                System.out.println("y: " + circle3.getY());
-                System.out.println("radius: " + circle3.getRadius());
-                System.out.println("area: " + circle3.getArea());
-                System.out.println("perimeter: " + circle3.getPerimeter());
+        System.out.println("The x coordinate of the circle is now: " + cirkel.getX());
+        System.out.println("The radius of the circle is : " + cirkel.getRadius());
 
-                circle1.grow(5);
-                System.out.println("\nCircle1 after growth by 5 units: ");
-                System.out.println("radius: " + circle1.getRadius());
+        cirkel.grow(5);
 
-            }
-        }
+        System.out.println("The radius of the circle is now: " + cirkel.getRadius());
+        System.out.println("The area of the circle is: " + cirkel.getArea());
+        System.out.println("The circumference of the circle is: " + cirkel.getPerimeter());
+
+    }
+
+}
+/*// Maak een nieuwe cirkel met een straal van 10
+        Circle cirkel = new Circle(10);
+
+        // Print de x-coördinaat van de cirkel
+        System.out.println("De x-coördinaat van de cirkel is: " + cirkel.getX());
+
+        // Stel de x-coördinaat van de cirkel in op 5
+        cirkel.setX(5);
+
+        // Print de x-coördinaat van de cirkel opnieuw
+        System.out.println("De x-coördinaat van de cirkel is nu: " + cirkel.getX());
+
+        // Print de straal van de cirkel
+        System.out.println("De straal van de cirkel is: " + cirkel.getRadius());
+
+        // Vergroot de straal van de cirkel met 5
+        cirkel.grow(5);
+
+        // Print de straal van de cirkel opnieuw
+        System.out.println("De straal van de cirkel is nu: " + cirkel.getRadius());
+
+        // Print het oppervlak van de cirkel
+        System.out.println("Het oppervlak van de cirkel is: " + cirkel.getArea());
+
+        // Print de omtrek van de cirkel
+        System.out.println("De omtrek van de cirkel is: " + cirkel.getPerimeter());
+
+    }
+
+}*/

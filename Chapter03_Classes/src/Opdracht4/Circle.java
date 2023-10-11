@@ -1,7 +1,8 @@
-package be.intecbrussel.les1.Opdracht4;public class Circle {
+package be.intecbrussel.les1.Opdracht4;
 
-    public static final int ANGLES = 0;
+public class Circle {
 
+    public static int ANGLES = 0;
     private int count;
     private int x;
     private int y;
@@ -76,3 +77,4 @@ package be.intecbrussel.les1.Opdracht4;public class Circle {
     }
 
 }
+
