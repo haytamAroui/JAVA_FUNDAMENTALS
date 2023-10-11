@@ -1,5 +1,5 @@
-package Oefening2;
-import java.util.Arrays;
+package Les1.Oefening2;
+
 public class Oefening1 {
     public static void main(String[] args) {
         int[] my_array = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
@@ -11,9 +11,8 @@ public class Oefening1 {
 
 //////////////////////////////////////////
         for(int x:my_array){
-        sum=sum+x;
+            sum=sum+x;
             System.out.println(sum);
         }
     }
 }
-
