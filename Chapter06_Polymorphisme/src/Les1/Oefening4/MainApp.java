@@ -12,7 +12,8 @@ public class MainApp {
         car2.model();
         car3.model();
 
-        // Downcasting
+        System.out.println("***** Downcasting ******" );
+
 
         Car1 c1 = (Car1) car1;
         c1.color = "green";

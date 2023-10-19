@@ -5,6 +5,7 @@ public class Car3 extends Vehicles {
 
     @Override
     public void model() {
+
         System.out.println("this car is Fiat");
     }
 }
