@@ -1,0 +1,12 @@
+package Oefening5;
+
+import Oefening4.Battery;
+
+public class VartaDoubleA implements Battery{
+    @Override
+    public int deliverPower() {
+        return 20;
+    }
+
+
+}
